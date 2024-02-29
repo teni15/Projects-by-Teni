@@ -1,0 +1,88 @@
+
+.body{
+    background-color:gray;
+    height: 600px;
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: normal;
+}
+.img{
+    height: 600px;
+    width: 550px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.word{
+    margin-top: 120px;
+    margin-right: 25px;
+    padding: 30px;
+}
+.h1{
+    font-family:"roboto" ,sans-serif;
+    font-size: 30px;
+    font-weight: 750;
+    text-transform: uppercase;
+    color:white;
+}
+.h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 400;
+    font-stretch: ultra-expanded;
+    text-transform: capitalize;
+
+}
+.p{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+color:white;
+line-height: 2;
+font-weight: 700;
+padding: 10px;
+}
+.timer{
+    display: flex;
+    flex-direction: row;
+width: 120px;
+height: 120px;
+color: white;
+gap: 10px;
+font-family: 'Courier New', Courier, monospace;
+font-weight: 700;
+}
+.d{
+    width:80px;
+    height: 80px;
+   background-color:rgb(50, 56, 62);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.h{
+    width: 80;
+    height: 80px;
+    background-color:rgb(50, 56, 62);
+    padding: 10px;
+    border-radius: 10px;
+}
+.m{
+    width: 80px;
+    height: 80px;
+    background-color:rgb(50, 56, 62);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.s{
+    width: 80px;
+    height: 80px;
+    background-color:rgb(50, 56, 62);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
